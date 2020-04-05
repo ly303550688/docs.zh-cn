@@ -58,7 +58,7 @@ public class HousingData
 将列加载为：
 
 - 单个列，例如 `Size` 类中的 `CurrentPrices` 和 `HousingData`。
-- 以向量的形式一次加载多个列，例如 `HistoricalPrices` 类中的 `HousingData`。
+- 以向量的形式一次加载多个列，例如 `HousingData` 类中的 `HistoricalPrices`。
 
 如果有一个向量属性，请在数据模型中向该属性应用 [`VectorType`](xref:Microsoft.ML.Data.VectorTypeAttribute) 特性。 请务必注意，向量中的所有元素必须为相同的类型。 保持列与列之间的分隔状态可以提高特征工程的易用性和灵活性，但是对于非常多的列，在单个列上操作会对训练速度产生影响。
 
